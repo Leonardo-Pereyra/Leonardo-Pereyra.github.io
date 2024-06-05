@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script defer src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https: //fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+
+    <title>Preentrega 2</title>
+</head>
+<body>
+    <div id="titulo">
+        <h1>Conversor de Unidades</h1>
+    </div>
+    
+    
+    <div id="contenedor">
+        <div id="form-Masa" class="form">
+            <h2>
+                Masa
+            </h2>
+            <select  name ="Unidad" id = "Masa">
+                <option value="0">Seleccione la Unidad</option>
+                <option value="1">Kilogramos</option>
+                <option value="2">Gramos</option>
+                <option value="3">Libras</option>
+                <option value="4">Onzas</option>
+            </select>
+            <input type="text" id="input-Masa" class="custom-select" placeholder="ingrese la cantidad">
+            <button id="btn-Masa">Convertir</button>
+            <p id="resultado-Masa" class= "resultado"></p>
+        </div>
+
+        <div id="form-longitud" class="form">
+            <h2>
+                Longitud
+            </h2>
+            <select  name ="Unidad" id = "longitud">
+                <option value="0">Seleccione la Unidad</option>
+                <option value="1">Metros</option>
+                <option value="2">centimetros</option>
+                <option value="3">Pies</option>
+                <option value="4">Pulgadas</option>
+            </select>
+            <input type="text" id="input-longitud" class="custom-select" placeholder="ingrese la cantidad">
+            <button id="btn-longitud">Convertir</button>
+            <p id="resultado-longitud" class= "resultado"></p>
+        </div>
+
+        <div id="form-Volumen" class="form">
+            <h2>
+                Volumen
+            </h2>
+            <select  name ="Unidad" id = "volumen">
+                <option value="0">Seleccione la Unidad</option>
+                <option value="1">Litros</option>
+                <option value="2">Mililitros</option>
+                <option value="3">Galones</option>
+                <option value="4">Pintas</option>
+            </select>
+            <input type="text" id="input-volumen" class="custom-select" placeholder="ingrese la cantidad">
+            <button id="btn-volumen">Convertir</button>
+            <p id="resultado-volumen" class= "resultado"></p>
+        </div>
+    </div>
+
+    <div id="contenedor-historial">
+        <div id="botones">
+        <button id="limpiar-storage">Limpiar historial</button>
+        <button id="boton-historial">Historial</button>
+        </div>
+        <div id = "historial"></div>
+    </div>
+
+
+    <footer id="footer">
+        <p>By: Pereyra Leonardo</p>
+        <p>2022</p>
+        <p>Esta es una pagina de conversor de Unidades Entrega Final</p>
+    </footer>
+
+
+</body>
+</html>
